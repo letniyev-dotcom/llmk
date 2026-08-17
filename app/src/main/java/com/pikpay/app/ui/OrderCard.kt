@@ -34,7 +34,7 @@ import com.pikpay.app.ui.theme.ErrorTint
 import com.pikpay.app.ui.theme.HintDivider
 import com.pikpay.app.ui.theme.Pending
 import com.pikpay.app.ui.theme.PendingTint
-import com.pikpay.app.ui.theme.AccentGradient
+import com.pikpay.app.ui.theme.Accent
 import com.pikpay.app.ui.theme.Success
 import com.pikpay.app.ui.theme.SuccessTint
 import com.pikpay.app.ui.theme.Surface
@@ -107,7 +107,7 @@ fun OrderCard(
                         .weight(1f)
                         .height(40.dp)
                         .clip(RoundedCornerShape(13.dp))
-                        .background(AccentGradient),
+                        .background(Accent),
                     shape = RoundedCornerShape(13.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = Color.Transparent),
                     contentPadding = PaddingValues(horizontal = 6.dp)

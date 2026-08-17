@@ -38,7 +38,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.pikpay.app.R
-import com.pikpay.app.ui.theme.AccentGradient
+import com.pikpay.app.ui.theme.Accent
 import com.pikpay.app.ui.theme.TextSecondary
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -107,7 +107,7 @@ private fun CtaButton(loading: Boolean, onClick: () -> Unit) {
             .fillMaxWidth()
             .height(54.dp)
             .clip(RoundedCornerShape(16.dp))
-            .background(AccentGradient),
+            .background(Accent),
         shape = RoundedCornerShape(16.dp),
         colors = ButtonDefaults.buttonColors(
             containerColor = Color.Transparent,

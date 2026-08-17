@@ -32,7 +32,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.pikpay.app.model.OrderTab
-import com.pikpay.app.ui.theme.AccentGradient
+import com.pikpay.app.ui.theme.Accent
 import com.pikpay.app.ui.theme.Surface
 import com.pikpay.app.ui.theme.TextSecondary
 
@@ -81,7 +81,7 @@ fun SegmentedControl(
                     .offset(x = indicatorOffset)
                     .width(indicatorWidth)
                     .height(indicatorHeight)
-                    .background(AccentGradient, RoundedCornerShape(11.dp))
+                    .background(Accent, RoundedCornerShape(11.dp))
             )
         }
         Row(
